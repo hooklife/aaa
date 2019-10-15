@@ -1,0 +1,12 @@
+  
+workspace:
+  base: /go
+  path: src/github.com/drone-demos/drone-go-selenium
+
+pipeline:
+  test:
+    image: golang:1.8
+    commands:
+      - echo 2
+      - sleep 20
+      - echo 1
