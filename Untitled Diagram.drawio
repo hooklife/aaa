@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-04T06:10:58.993Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="97nUz0bg2dwZqKePuFHC" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-04T06:12:36.523Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="RxNFg4GCE8w7hL4fWfeT" version="12.1.9" type="github" pages="1">
   <diagram id="yCnBRt5ZxJssyIiYSbIe" name="Page-1">
     <mxGraphModel dx="2052" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,6 +77,12 @@
         </mxCell>
         <mxCell id="px2nRJegQgitWIK7hjpx-16" value="报警+心跳监控" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="200" width="130" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="px2nRJegQgitWIK7hjpx-18" value="记录所有 请求日志 and 用户信息，IP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="555" width="300" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="px2nRJegQgitWIK7hjpx-19" value="记录所有开通/识别/合格/不合格日志" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="612" width="270" height="28" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
