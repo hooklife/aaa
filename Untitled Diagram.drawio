@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-04T06:24:35.138Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="yWqVsZ4gQWFFtaX5xN7N" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-04T06:46:03.205Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="RQkwvkpgNwFBtSQOT1uY" version="12.1.9" type="github" pages="1">
   <diagram id="yCnBRt5ZxJssyIiYSbIe" name="Page-1">
     <mxGraphModel dx="2052" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,7 +90,7 @@
         <mxCell id="px2nRJegQgitWIK7hjpx-22" value="代码规范：&lt;br&gt;&lt;ol&gt;&lt;li&gt;所有功能代码提交&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;必须&lt;/b&gt;&lt;/font&gt;建立分支并提交 PR&lt;/li&gt;&lt;li&gt;提交PR前&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;必须&lt;/b&gt;&lt;/font&gt;先合并 dev/master 分支&lt;/li&gt;&lt;li&gt;提交 PR 后必须大于 1 个人 review 后才可以合并，review者在代码提交者请假时负责这部分代码的维护/BUG 修改&lt;/li&gt;&lt;li&gt;代码中不得带有任何服务器的信息，数据库配置等代码&lt;/li&gt;&lt;li&gt;API 部分代码使用 非 Laravel orm 提供的联表查询进行查询时，需要一起商讨是否可以使用&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;禁止&lt;/font&gt;&lt;/b&gt;手动修改数据库结构&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1110" y="420" width="450" height="208" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-24" value="数据库需要异地备份" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-24" value="数据库需要异地备份&lt;br&gt;数据库并发数过低，是否开启只读实例&lt;br&gt;阿里云云监控，添加监控规则&lt;br&gt;短信发送可以添加多个发送服务商。&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1110" y="680" width="450" height="210" as="geometry"/>
         </mxCell>
       </root>
