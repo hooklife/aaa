@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-04T06:46:03.205Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="RQkwvkpgNwFBtSQOT1uY" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-04T07:06:50.742Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="1MZyk8XWHAPJAUjtV5NC" version="12.1.9" type="github" pages="1">
   <diagram id="yCnBRt5ZxJssyIiYSbIe" name="Page-1">
     <mxGraphModel dx="2052" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
             <mxPoint x="380" y="130" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dnrcrz0dpH4ZOHUbm57b-7" target="px2nRJegQgitWIK7hjpx-1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Dnrcrz0dpH4ZOHUbm57b-7" target="px2nRJegQgitWIK7hjpx-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="380" y="715"/>
@@ -48,49 +48,49 @@
         <mxCell id="Dnrcrz0dpH4ZOHUbm57b-15" value="网关(限流/日志/缓存)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="550" width="120" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="px2nRJegQgitWIK7hjpx-1" target="px2nRJegQgitWIK7hjpx-4">
+        <mxCell id="px2nRJegQgitWIK7hjpx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="px2nRJegQgitWIK7hjpx-1" target="px2nRJegQgitWIK7hjpx-4" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="px2nRJegQgitWIK7hjpx-1" target="px2nRJegQgitWIK7hjpx-13">
+        <mxCell id="px2nRJegQgitWIK7hjpx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="px2nRJegQgitWIK7hjpx-1" target="px2nRJegQgitWIK7hjpx-13" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-1" value="AI 识别服务（函数云计算）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-1" value="AI 识别服务（函数云计算）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="770" width="225" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-4" value="图像画框/上传OSS(函数云计算)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-4" value="图像画框/上传OSS(函数云计算)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="990" width="200" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-8" value="consume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-8" value="consume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="940" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-10" value="consume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-10" value="consume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="393" y="690" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-12" value="模版消息队列（接收一切模版消息）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-12" value="模版消息队列（接收一切模版消息）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="830" width="303" height="120" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-13" value="数据库回写（函数云计算）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-13" value="数据库回写（函数云计算）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="990" width="150" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-15" value="consume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-15" value="consume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="940" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-16" value="报警+心跳监控" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-16" value="报警+心跳监控" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="425" y="200" width="130" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-18" value="记录所有 请求日志 and 用户信息，IP，限流报警" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-18" value="记录所有 请求日志 and 用户信息，IP，限流报警" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="640" y="555" width="390" height="25" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-19" value="记录所有开通/识别/合格/不合格日志" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-19" value="记录所有开通/识别/合格/不合格日志" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="670" y="612" width="270" height="28" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-21" value="小程序/API实例，自建 sentry 记录异常并邮件提醒" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-21" value="小程序/API实例，自建 sentry 记录异常并邮件提醒" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="310" width="360" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-22" value="代码规范：&lt;br&gt;&lt;ol&gt;&lt;li&gt;所有功能代码提交&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;必须&lt;/b&gt;&lt;/font&gt;建立分支并提交 PR&lt;/li&gt;&lt;li&gt;提交PR前&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;必须&lt;/b&gt;&lt;/font&gt;先合并 dev/master 分支&lt;/li&gt;&lt;li&gt;提交 PR 后必须大于 1 个人 review 后才可以合并，review者在代码提交者请假时负责这部分代码的维护/BUG 修改&lt;/li&gt;&lt;li&gt;代码中不得带有任何服务器的信息，数据库配置等代码&lt;/li&gt;&lt;li&gt;API 部分代码使用 非 Laravel orm 提供的联表查询进行查询时，需要一起商讨是否可以使用&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;禁止&lt;/font&gt;&lt;/b&gt;手动修改数据库结构&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-22" value="代码规范：&lt;br&gt;&lt;ol&gt;&lt;li&gt;所有功能代码提交&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;必须&lt;/b&gt;&lt;/font&gt;建立分支并提交 PR&lt;/li&gt;&lt;li&gt;提交PR前&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;必须&lt;/b&gt;&lt;/font&gt;先合并 dev/master 分支&lt;/li&gt;&lt;li&gt;提交 PR 后必须大于 1 个人 review 后才可以合并，review者在代码提交者请假时负责这部分代码的维护/BUG 修改&lt;/li&gt;&lt;li&gt;代码中不得带有任何服务器的信息，数据库配置等代码&lt;/li&gt;&lt;li&gt;API 部分代码使用 非 Laravel orm 提供的联表查询进行查询时，需要一起商讨是否可以使用&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;禁止&lt;/font&gt;&lt;/b&gt;手动修改数据库结构&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1110" y="420" width="450" height="208" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-24" value="数据库需要异地备份&lt;br&gt;数据库并发数过低，是否开启只读实例&lt;br&gt;阿里云云监控，添加监控规则&lt;br&gt;短信发送可以添加多个发送服务商。&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="px2nRJegQgitWIK7hjpx-24" value="数据库需要异地备份&lt;br&gt;数据库并发数过低，是否开启只读实例&lt;br&gt;阿里云云监控，添加监控规则&lt;br&gt;短信发送可以添加多个发送服务商。&lt;br&gt;oss 存储图片压缩，按月冷存储&lt;br&gt;oss 图片自动转换 webp格式，节约空间" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="680" width="450" height="210" as="geometry"/>
         </mxCell>
       </root>
