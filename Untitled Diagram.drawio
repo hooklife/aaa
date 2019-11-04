@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-04T06:06:57.229Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="Bh_XMRGDvPaDcModl9uT" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-04T06:08:07.331Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="3sjWQKq4PQf0e32A-VjR" version="12.1.9" type="github" pages="1">
   <diagram id="yCnBRt5ZxJssyIiYSbIe" name="Page-1">
     <mxGraphModel dx="2052" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="px2nRJegQgitWIK7hjpx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dnrcrz0dpH4ZOHUbm57b-7" target="px2nRJegQgitWIK7hjpx-1">
-          <mxGeometry relative="1" as="geometry"/>
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="715"/>
+              <mxPoint x="381" y="715"/>
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Dnrcrz0dpH4ZOHUbm57b-7" value="弹性伸缩实例组 （实例上限需要预估 数据库/redis 压力）" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="100" y="320" width="560" height="340" as="geometry"/>
@@ -47,10 +52,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="px2nRJegQgitWIK7hjpx-1" value="AI 识别服务（函数云计算）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="268" y="770" width="225" height="100" as="geometry"/>
-        </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-3" value="consume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="697" width="40" height="20" as="geometry"/>
+          <mxGeometry x="267.5" y="770" width="225" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="px2nRJegQgitWIK7hjpx-4" value="图像画框/上传OSS(函数云计算)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="990" width="200" height="60" as="geometry"/>
