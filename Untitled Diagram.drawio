@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-04T06:09:37.783Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="zfL6dDP2GVA0q2ceFsPb" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-04T06:10:58.993Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="97nUz0bg2dwZqKePuFHC" version="12.1.9" type="github" pages="1">
   <diagram id="yCnBRt5ZxJssyIiYSbIe" name="Page-1">
     <mxGraphModel dx="2052" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,14 +66,17 @@
         <mxCell id="px2nRJegQgitWIK7hjpx-10" value="consume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="393" y="690" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="px2nRJegQgitWIK7hjpx-12" value="模版消息队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="770" width="130" height="290" as="geometry"/>
+        <mxCell id="px2nRJegQgitWIK7hjpx-12" value="模版消息队列（接收一切模版消息）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="770" width="303" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="px2nRJegQgitWIK7hjpx-13" value="数据库回写（函数云计算）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="990" width="150" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="px2nRJegQgitWIK7hjpx-15" value="consume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="940" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="px2nRJegQgitWIK7hjpx-16" value="报警+心跳监控" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="200" width="130" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
