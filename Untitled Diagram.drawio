@@ -1,1 +1,52 @@
-<mxfile host="www.draw.io" modified="2019-11-04T06:04:02.466Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="xgoRnIzHpKXgLUZcs9FK" version="12.1.9" type="github" pages="1"><diagram id="yCnBRt5ZxJssyIiYSbIe" name="Page-1">3Vhtb5swEP41lrYPmzBgsD9CIOukvVSqpkr75oIHTCSOXKdJ+uvnAxNCSNtsbZSuFVKPx+fz+bnzgxXkTWbrT4ovyq8yFzVynXyNvAS5rusQ1/wDZNMijPotUKgqbyHcA1fVvbCgY9FllYvbgaOWstbVYghmcj4XmR5gXCm5Grr9kvVw1QUvxAi4yng9Rq+rXJctSt2wxy9EVZTdyjhg7ciMd852J7clz+VqB/JS5E2UlLq1ZuuJqIG8jpd23vSB0W1iSsz1MROSucrUvZMvLvyf3y9+3MxIePPBVueO10u74UnyzearNx0JSi7nuYA4DvLiVVlpcbXgGYyuTNkNVupZbd6wMW1EobRYP5gq3hJgOkfImdBqY1zsBK/jzDZNYF9XfQVw51LusB9ajNuiF9vIPS/GsNT8BU0YjzgRuekT+yqVLmUh57xOezQestb7fJFyYbn6LbTe2KbnSy0PMQkLPc6jyUsuVSYe2QCxR4erQuhH/MLDdVGi5rq6G+bx4iyTUTOilKLYR2zaGAk8KUEsQTQEJMLwvLZuxezIdvVP1a7Bf96t7pHdSp7ZrXbqpaxMhn096bCeLturU5uXnbWruE8Ewt5eoJaIUaCm5tv9/HsbhAfOE0HxBMUMpQEy2UXmGPkNQlEaghEx8IlSxNJmKEU0boZiBF9uB6VTcKP0kJsPcWiEUoaYeZzGmMBCcFjNihiQyIVQdl2niRkgRsCGrBIIC3lGiHlm30rk1W3jRRBt1yGwCIu7XNjzJIDXVTE3dmb6VKiX0QTsDEvveWNNIMEBTfBOJgp01A3R5WfL67CQ55dUHAzpI92t8SlJDU7FHjuaPffs7O1/kM7PXneb36HvI/ydnSqfvjqqxlfyRn8TxHCjfEYZvXc7EhugmICymlVBR0MUkUY+p2AD2Oi6kVLoVBOFvj8766PjTY68Me1/QF+Odf/tsz6ShfOzfujG/8ZYHynMCVmH29L294T2Ftn/KuOlfwA=</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-04T06:05:20.049Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="tDlCjl_a58XtGp2dQJzo" version="12.1.9" type="github" pages="1">
+  <diagram id="yCnBRt5ZxJssyIiYSbIe" name="Page-1">
+    <mxGraphModel dx="2052" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="Dnrcrz0dpH4ZOHUbm57b-2" value="CDN" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="60" width="120" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dnrcrz0dpH4ZOHUbm57b-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Dnrcrz0dpH4ZOHUbm57b-5" target="Dnrcrz0dpH4ZOHUbm57b-7" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dnrcrz0dpH4ZOHUbm57b-5" value="负载均衡" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="190" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dnrcrz0dpH4ZOHUbm57b-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Dnrcrz0dpH4ZOHUbm57b-2" target="Dnrcrz0dpH4ZOHUbm57b-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="290" as="targetPoint"/>
+            <mxPoint x="380" y="130" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="px2nRJegQgitWIK7hjpx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dnrcrz0dpH4ZOHUbm57b-7" target="px2nRJegQgitWIK7hjpx-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dnrcrz0dpH4ZOHUbm57b-7" value="弹性伸缩实例组 （实例上限需要预估 数据库/redis 压力）" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="320" width="560" height="340" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dnrcrz0dpH4ZOHUbm57b-8" value="API 实例1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="584" width="120" height="56" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dnrcrz0dpH4ZOHUbm57b-9" value="API 实例2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="584" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dnrcrz0dpH4ZOHUbm57b-10" value="....." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="584" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dnrcrz0dpH4ZOHUbm57b-12" value="网关(限流/日志/缓存)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="550" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dnrcrz0dpH4ZOHUbm57b-14" value="网关(限流/日志/缓存)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="550" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dnrcrz0dpH4ZOHUbm57b-15" value="网关(限流/日志/缓存)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="550" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="px2nRJegQgitWIK7hjpx-1" value="AI 识别服务（函数云计算）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="770" width="570" height="170" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
