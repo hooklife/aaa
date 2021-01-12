@@ -9,4 +9,4 @@ pipeline:
     commands:
       - echo 2
       - sleep 20
-      - echo 1
+      - echo 3
